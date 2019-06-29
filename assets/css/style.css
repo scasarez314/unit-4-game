@@ -1,4 +1,42 @@
 * {
     box-sizing: border-box;
 }
+#opener {
+    background-color: orange;
+    color: white;
+    margin: 0 40% 10px 0;
+    text-align: center;
+    padding: 10px;
+
+}
+#instructions{
+    background-color: lightgoldenrodyellow;
+    color: green;
+    margin-right: 30%;
+    padding: 8px;
+    text-align: left;
+    line-height: 30px;
+    font-weight: bold;
+}
+#wrapper {
+    margin: 10px 40% 0 0;
+}
+#generatedNumber {
+    background-color: lightgreen;
+    float: left;
+    padding: 30px;
+
+}
+#tracker {
+    background-color: cyan;
+    text-align: left;
+    float: left;
+    margin: auto 10px 10px 10px;
+    padding: 10px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
   
