@@ -1,16 +1,14 @@
 $(document).ready(function (ev) {
+
     initalStart();
 
     // have the computer generate a random number.
     computerGuess = Math.floor(Math.random() * 102 + 19);
-    // console.log(computerGuess + "this is the computers random number");
-
     $("#generatedNumber").text(computerGuess);
 
 
     // track gem values 
     var newScore = 0;
-
     $("#playerScore").text(newScore);
 
 
@@ -43,26 +41,34 @@ $(document).ready(function (ev) {
     // Gem2 onclick functions
     $(".gem2").on("click", function (event) {
 
+        newScore = gem2 + newScore
+        var answer = newScore;
 
-        $(".gem2").val(gem2)
-        console.log(gem2 + "" + newScore)
+        $("#playerScore").text(answer);
+
+        console.log(answer + "answer")
     });
 
     // Gem3 onclick functions
     $(".gem3").on("click", function (event) {
+        newScore = gem3 + newScore
+        var answer = newScore;
 
-        var gem3 = Math.floor(Math.random() * 12 + 1);
-        $(".gem3").val(gem3)
-        console.log(gem3 + "" + "gem3 value")
+        $("#playerScore").text(answer);
+
+        console.log(answer + "answer")
+
     });
 
 
     // Gem4 onclick functions 
     $(".gem4").on("click", function (event) {
+        newScore = gem4 + newScore
+        var answer = newScore;
 
-        var gem4 = Math.floor(Math.random() * 12 + 1);
-        $(".gem4").val(gem4)
-        console.log(gem4 + "" + "gem4 value")
+        $("#playerScore").text(answer);
+
+        console.log(answer + "answer")
 
     })
 
