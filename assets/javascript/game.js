@@ -6,11 +6,9 @@ $(document).ready(function (ev) {
     computerGuess = Math.floor(Math.random() * 102 + 19);
     $("#generatedNumber").text(computerGuess);
 
-
     // track gem values 
     var newScore = 0;
     $("#playerScore").text(newScore);
-
 
     function randonGemNumber() {
         var random = Math.floor(Math.random() * 12 + 1);
@@ -26,6 +24,7 @@ $(document).ready(function (ev) {
         newScore = 0;
         console.log(gem1 + "heres gem1")
     }
+
     // Gem1 on click functions
     $(".gem1").on("click", function (event) {
 
@@ -36,7 +35,6 @@ $(document).ready(function (ev) {
 
         console.log(answer + "answer")
     });
-
 
     // Gem2 onclick functions
     $(".gem2").on("click", function (event) {
@@ -60,7 +58,6 @@ $(document).ready(function (ev) {
 
     });
 
-
     // Gem4 onclick functions 
     $(".gem4").on("click", function (event) {
         newScore = gem4 + newScore
@@ -71,7 +68,6 @@ $(document).ready(function (ev) {
         console.log(answer + "answer")
 
     })
-
 
     // track the wins and losses and show on screen.
     var Wins = 0;
