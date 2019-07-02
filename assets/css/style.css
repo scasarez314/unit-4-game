@@ -23,10 +23,12 @@
 #wrapper {
     margin: 10px 40% 0 0;
 }
-#generatedNumber {
+#generatedNumber,
+#reachthisnumber {
     background-color: lightgreen;
     float: left;
-    padding: 30px;
+    padding: 10px;
+    font-weight: bold;
 
 }
 #tracker {
@@ -61,6 +63,9 @@ body {
     background-image: url("https://image.freepik.com/free-vector/waves-repeating-background-pastel-colors-doodle-vector-seamless-pattern-textile-packaging-design_7586-1878.jpg");
     /* background-repeat: repeat; */
   
+}
+img {
+    border
 }
 .clearfix::after {
     content: "";

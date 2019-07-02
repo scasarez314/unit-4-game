@@ -22,7 +22,7 @@ $(document).ready(function (ev) {
         gem3 = randonGemNumber();
         gem4 = randonGemNumber();
         newScore = 0;
-        console.log(gem1 + "heres gem1")
+        console.log()
     }
 
     // Gem1 on click functions
@@ -72,4 +72,5 @@ $(document).ready(function (ev) {
     // track the wins and losses and show on screen.
     var Wins = 0;
     var Losses = 0;
+
 });
