@@ -39,9 +39,10 @@
     padding: 10px;
     font-weight: bold;
     font-size: 18px;
+    width: 20%;
     
 }
-#crystalImages {
+#crystalBar {
     margin: 10px auto;
 
 }
