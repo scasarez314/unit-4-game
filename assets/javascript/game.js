@@ -40,14 +40,22 @@ $(document).ready(function (ev) {
         }
     }
 
-
     function promtToplay() {
+
         var playAgain = prompt("Play Again? Y / N");
 
-        if (playAgain.toLocaleLowerCase() === "y")
+        if (playAgain.toLocaleLowerCase() === "y") {
             initalStart();
 
+        } else if (playAgain.toLocaleLowerCase() === "n") {
+            prompt("Game Over Than.");
+            document.location.reload()
+
+        }
+
+
     }
+
 
     // Gem1 on click functions
     $(".gem1").on("click", function (event) {

@@ -40,11 +40,15 @@
     font-weight: bold;
     font-size: 18px;
     width: 20%;
+    height: 100px;
     
 }
 #crystalBar {
     margin: 10px auto;
 
+}
+img {
+    border-radius: 100%;
 }
 #scoreHolder {
     background-color: darkcyan;
@@ -52,7 +56,7 @@
     margin: 10px 80% 5px auto;
     font-weight: bold;
     font-size: 18px;
-    padding: 5px; 
+    padding: 5px;
 }
 #playerscore {
     background-color: darkcyan;
@@ -62,8 +66,8 @@
 }
 body {
     /* background-color: black; */
-    background-image: url("https://wallpapercave.com/wp/OHYFzjF.jpg");
-    /* background-repeat: repeat; */
+    background-image: url("https://image.freepik.com/free-vector/low-poly-crystal-background-with-pastel-color_3811-134.jpg");
+    /* background-repeat: repeat;  */
   
 }
 img {
